@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+data/raw/
+data/processed/*
+!data/processed/superstore_cleaned.csv
+!data/processed/
+
+*.db
+*.sqlite
+*.sqlite3
+
+.env
+.DS_Store
+.streamlit/secrets.toml
